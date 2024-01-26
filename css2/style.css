@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EFF0F6;
+}
+.container{
+
+}
+.rectangle-1{
+    background-color: #FFFFFF;
+    width: 25%;
+    margin: 125px;
+}
+.rectangle-2{
+    font-weight: bold;
+    font-size: small;
+    padding: 20px;
+
+}
+.rectangle-3{
+    font-weight: bold;
+    font-size: small;
+    padding: 20px;
+}

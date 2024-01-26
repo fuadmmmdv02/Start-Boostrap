@@ -1,0 +1,260 @@
+*{
+    margin: 20px;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.top-header{
+    display: flex;
+    padding: 20px 50px;
+    width: 100%;
+    justify-content: space-between;
+    background: #2B2B2B;
+}
+.img-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-nav a{
+    color: #FFFFFF;
+    padding-left: 5px;
+}
+.navigation-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px
+}
+.navigation-list li a{
+    color: #FFFFFF;
+    padding-right: 50px;
+}
+.navigation-list li:last-child{
+    background-color: #A259FF;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    border: 1px solid #A259FF;
+    border-radius: 20px;
+}
+.navigation-list li:last-child a {
+    margin-right: 0px;
+
+}
+
+.navigation-list li:last-child i {
+    margin-right: 7px;
+}
+.discover-head p {
+    font-size: 50px;
+    font-family: "Work Sans";
+    font-weight: 600;
+    color: #fff;
+}
+body{
+    height: 100vh;
+    background-color: #2B2B2B;
+}
+
+.herosection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 0px 0px 130px;
+}
+.discover{
+    font-weight: 600;
+    color: white;
+    font-size: 50px;
+    margin: 50px;
+}
+.NFT{
+    font-weight:lighter;
+    color: white;
+    font-size: 25px;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+}
+.imageplaceholder{
+    margin: 50px;
+    padding: 50px;
+
+}
+
+.frame-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    width: 224px;
+    height: 60px;
+    padding: 0px 50px 0px 50px;
+    border-radius: 20px;
+    background-color:#A259FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.button a{
+    width: 92px;
+    height: 22px;
+    font-weight: 600px;
+    
+    text-align: center;
+    font-size: 16px;
+    background-color:#A259FF;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+}
+.frame{
+    width: 510px;
+    height: 109px;
+    border-radius: 0px 0px 20px 20px;
+    padding: 33px;
+    background-color: #3B3B3B;
+    margin: -17px 0px 0px 0px;
+}
+.spacewalking{
+    width: 188px;
+    height: 45px;
+    color: #FFFFFF;
+    font-size: 22px;
+    background-color: #3B3B3B;
+    margin: -13px;
+}
+.avatar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:6px 0px 0px -6px;
+}
+.avatar p{
+    width: 434px;
+    height: 31px;
+    color: #FFFFFF;
+    size: 16px;
+    margin: 0px 0px -7px 8px;
+}
+.totalsale p{
+    font-family: 'Space Mono', monospace;
+    font-size: 28px;
+}
+.total {
+    margin-top: 15px;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+    color: #fff;
+    font-family: "Work Sans";
+}
+
+.total p {
+    font-family: "Space Mono";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.total p span {
+    font-family: "Work Sans";
+    font-size: 23.99px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+/* End hero ssection */
+
+/* Start Trending Collection */
+
+.heading p{
+    color: #FFFFFF;
+    width: 1046px;
+    height: 46px;
+    font-family:"Work Sans";
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.subhead p{
+    color: #FFFFFF;
+    width: 1046px;
+    height: 35px;
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.heading,.subhead{
+    height: 46px;
+    margin: 0px 0px 0px 170px;
+}
+.collectioncardrow{
+    display: flex;
+}
+.photo1,.secondphoto1{
+    margin: 15px 10px 0px 170px;
+}
+.secondphoto1{
+    display: flex;
+    
+}
+.secondphoto1 p{
+    width:100px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #A259FF;
+    color: white;
+    font-family: "Space Mono";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.collectioninfo{
+    width: 330px;
+    height: 31px;
+    color: #FFFFFF;
+    font-family: "Work Sans";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px 80px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.artistcard{
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 166px;
+}
+.secondphoto2{
+    margin: 16px 0px 0px 168px;
+}
+.secondphoto2{
+    display: flex;
+}
+.secondphoto2 p{
+    width:100px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #A259FF;
+    color: white;
+    font-family: "Space Mono";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
